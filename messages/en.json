@@ -1,0 +1,16 @@
+{
+  "Home": {
+    "step1": "Get started by editing",
+    "step2": "Save and see your changes instantly.",
+    "deploy": "Deploy now",
+    "docs": "Read our docs",
+    "learn": "Learn",
+    "examples": "Examples",
+    "goto": "Go to"
+  },
+  "List": {
+    "loading": "Loading...",
+    "desc": "There is nothing here.",
+    "text": "Click me"
+  }
+}
