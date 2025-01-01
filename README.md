@@ -140,14 +140,11 @@ export async function setUserLocale(locale) {
 
 ```js
 import { getRequestConfig } from 'next-intl/server';
-import { headers } from 'next/headers';
+
+import { getUserLocale } from './service'
 
 export default getRequestConfig(async () => {
-  // 读取请求头 accept-language
-  const acceptLanguage = (await headers()).get('accept-language')
-
-  // 解析请求头作为默认语言，如果没有，默认使用英语
-  const locale = acceptLanguage?.split(',')[0].split('-')[0] || 'en'
+  const locale = await getUserLocale()
 
   return {
     locale,
