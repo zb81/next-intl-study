@@ -36,30 +36,43 @@ pnpm add next-intl
 > `Home` 为命名空间，后面需要用到，可以在 json 中声明多个，表示不同场景。
 
 - en.json
+
 ```json
 {
   "Home": {
     "step1": "Get started by editing",
-    "step2": "Save and see your changes instantly",
+    "step2": "Save and see your changes instantly.",
     "deploy": "Deploy now",
     "docs": "Read our docs",
     "learn": "Learn",
     "examples": "Examples",
     "goto": "Go to"
+  },
+  "List": {
+    "loading": "Loading...",
+    "desc": "There is nothing here.",
+    "text": "Click me"
   }
 }
 ```
+
 - zh.json
+
 ```json
 {
   "Home": {
     "step1": "开始编辑",
-    "step2": "保存并立即查看您的更改",
+    "step2": "保存并立即查看您的更改。",
     "deploy": "现在部署",
     "docs": "阅读文档",
     "learn": "学习",
     "examples": "例子",
     "goto": "前往"
+  },
+  "List": {
+    "loading": "加载中...",
+    "desc": "这里什么也没有。",
+    "text": "点击我"
   }
 }
 ```
