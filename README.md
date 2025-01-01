@@ -278,3 +278,9 @@ export default function LocaleSwitcher({ defaultValue = defaultLocale }) {
 效果如下：
 
 <img alt="切换语言效果图" src="https://cdn.zb81.icu/327368ecec59b2623afaebcd44b563d1cee41b9602329f1613ec988496d08125.gif" />  
+
+## 五、最后
+
+在线预览地址：[https://next-intl-study.vercel.app/](https://next-intl-study.vercel.app/)
+
+完整代码仓库：[https://github.com/zb81/next-intl-study](https://github.com/zb81/next-intl-study)
